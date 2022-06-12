@@ -1,0 +1,20 @@
+## This is a example config file, if you want to use this config
+## you should rename this file to "config.yaml".
+
+SETTINGS:
+  USER_AGENT: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+  # 考試預約網址
+  EXAM_RESERVE_URL: "https://www.mvdis.gov.tw/m3-emv-trn/exm/locations#anchor"
+
+# 考試預約資料
+EXAM_DATA:
+  # 駕照類型
+  LICENSE_TYPE_CODE: 3
+  # 監理所ID
+  DMV_NO: 74
+  # 監理站ID
+  DMV_NO_LV_1: 70
+  # 預計考試日期(格式：yyyMMdd, 範例：1110601)
+  EXPECT_EXAM_DATE_STR: 1110601
+  # 僅查詢週末及假日
+  ONLY_WEEKEND: false

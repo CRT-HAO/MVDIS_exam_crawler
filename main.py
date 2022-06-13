@@ -23,7 +23,7 @@ def serializeString(string: str) -> str:
 
 if __name__ == '__main__':
     # 讀取設定檔
-    with open('config.yaml', 'r') as f:
+    with open('config.yaml', 'r', encoding='utf8') as f:
         config = yaml.load(f, Loader=yaml.FullLoader)
 
     # 創建會話
